@@ -27,6 +27,12 @@ public class Pessoa {
 	
 	
 	
+	public void calcularIdade () {
+		System.out.println("Hello Commit");
+	}
+	
+	
+	
 	
 	
 }
