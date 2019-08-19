@@ -3,6 +3,15 @@ public class Pessoa {
 
 	
 
+
+
+	public  int idade ;
+	private String nome;
+	private String email ;
+	private String telefone ;
+	private String cpf ;
+	
+
 	public String getNome() {
 		return nome;
 	}
@@ -21,9 +30,22 @@ public class Pessoa {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-	private String nome;
-	private String email ;
-	private String telefone ;
+	
+	
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	
 	
 	
 	
@@ -32,6 +54,11 @@ public class Pessoa {
 	}
 	
 	
+	
+	public void  verificaCPf( String cpfString) {
+		//funcçao verifica cpf 
+		
+	}
 	
 	
 	
